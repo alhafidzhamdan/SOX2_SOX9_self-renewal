@@ -15,8 +15,9 @@
 
 CONFIG=$1
 IDS=$2
-OUTPUT_DIR=$3
-THRESHOLD=$4
+BAM_DIR=$3
+OUTPUT_DIR=$4
+THRESHOLD=$5
 
 source $CONFIG
 
@@ -28,7 +29,6 @@ module load igmm/apps/MACS2/2.1.1
 SAMPLE_ID=`head -n $SGE_TASK_ID $IDS | tail -n 1 | cut -f 1`
 CHIP_BAM=`head -n $SGE_TASK_ID $IDS | tail -n 1 | cut -f 2`
 INPUT_BAM=`head -n $SGE_TASK_ID $IDS | tail -n 1 | cut -f 3`
-BAM_DIR=/exports/igmm/eddie/Glioblastoma-WGS/ChIP-seq/mitotic_bookmarking/bams/replicates/final
 
 cd $OUTPUT_DIR
 
