@@ -35,7 +35,7 @@ export PATH=/exports/igmm/eddie/Glioblastoma-WGS/anaconda/envs/meme-chip/bin:$PA
 #### MEME_CHIP 
 #### Based on https://www.biostars.org/p/401084/
 
-### $BEDTOOLS getfasta -fi $MM10_REF_FASTA -bed $BED_FILE > $FASTA_FILE
+### $BEDTOOLS getfasta -fi $HG38_REF_FASTA -bed $BED_FILE > $FASTA_FILE
 
 $MEME_CHIP -oc $MEME_CHIP_DIR_SAMPLE -db $DB_DIR $FASTA_FILE   
     
