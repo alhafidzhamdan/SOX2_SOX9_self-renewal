@@ -12,3 +12,8 @@ This repository contains all the scripts necessary to process the SOX2 and SOX9 
 ##### Step 9: Visualisation using Deeptools suite of tools
 
 
+
+
+
+
+
