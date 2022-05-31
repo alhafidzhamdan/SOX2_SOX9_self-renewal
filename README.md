@@ -5,9 +5,9 @@ This repository contains all the scripts necessary to process the SOX2 and SOX9 
 ##### Step 2: Filter and QC bam files
 ##### Step 3 (optional): Assessing reproducibility using IDR
 ##### Step 4 (optional): Assessing library complexity using phantompeak
-##### Step 6: Calling peaks using MACS2
-##### Step 7: Downstream analyses using HOMER annotation, HOMER motif calling and MEME-CHIP de novo motif calling.
-##### Step 8: Consensus peak set (peak occupancy in 5 out 7)
-##### Step 9: Visualisation using Deeptools suite of tools
+##### Step 5: Calling peaks using MACS2
+##### Step 6: Downstream analyses using HOMER annotation, HOMER motif calling and MEME-CHIP de novo motif calling.
+##### Step 7: Consensus peak set (peak occupancy in 5 out 7)
+##### Step 8: Visualisation using Deeptools suite of tools
 
 
