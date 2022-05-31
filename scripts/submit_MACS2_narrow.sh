@@ -3,7 +3,7 @@
 ## Based on https://github.com/macs3-project/MACS
 
 # To run this script, do 
-# qsub -t 1-n submit_macs2.sh CONFIG IDS
+# qsub -t 1-n submit_MACS2_narrow.sh CONFIG IDS
 #
 #$ -N macs2
 #$ -j y
