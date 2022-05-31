@@ -2,8 +2,7 @@
 
 # To run this script, do 
 # qsub -t 1-n submit_macs2IDR.sh CONFIG IDS CHIP BATCH
-# IDS points to sample root name ie G328 (only)
-#
+
 #$ -N macs2IDR
 #$ -j y
 #$ -S /bin/bash
