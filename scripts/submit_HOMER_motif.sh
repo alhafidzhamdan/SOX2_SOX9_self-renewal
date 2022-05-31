@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # To run this script, do 
-# qsub -t 1-n submit_homer_motif.sh
+# qsub -t 1-n submit_HOMER_motif.sh
 #
 #$ -N homer_motif
 #$ -j y
