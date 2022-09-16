@@ -53,7 +53,7 @@ samtools markdup $POSITION_FIXMATE_REP $MARKDUP_REP
 
 ## Filter blacklisted regions
 ## Peaks downloaded from https://github.com/Boyle-Lab/Blacklist/tree/master/lists
-bedtools intersect -v -a $MARKDUP_REP -b $BLACKLISTED_PEAKS_MM10 > $FILTERED_REP
+bedtools intersect -v -a $MARKDUP_REP -b $BLACKLISTED_PEAKS > $FILTERED_REP
 samtools sort -@ 10 -o $FINAL_REP $FILTERED_REP
 samtools index $FINAL_REP
 
